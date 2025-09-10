@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        
+        <div id="todo-list" class="todo-list">
+            <!-- Todo items will be rendered here -->
+        </div>
+        
+        <div id="empty-state" class="empty-state hidden">
+            <p>No todo items yet. Add one below!</p>
+        </div>
+        
+        <div class="add-todo">
+            <input type="text" id="new-todo-input" placeholder="Enter a new todo item..." />
+            <button id="add-todo-btn" class="add-btn">+</button>
+        </div>
+    </div>
+    
+    <script src="./dist/index.js"></script>
+</body>
+</html>
